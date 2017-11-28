@@ -611,7 +611,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	background-color: transparent;
 }
 
-.bck-title1 {
+h2.bck-title1 {
     color: #0073bc;
     font-size: 3.4rem;
     font-weight: bolder;
@@ -627,7 +627,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	position: relative;
 }
 
-.bck-title3 {
+h3.bck-title3 {
     color: #0073bc;
     font-size: 2.4rem;
     font-weight: 600;
@@ -664,6 +664,8 @@ body.is_app .intertaal_demo-navbar.ocultar {
     margin-right: 3px;
     margin-bottom: 1px;
     border-radius:0px;
+    border:0px;
+
 }
 
 #actividad .content .texto_curso  ul.bck-ul-2 li,

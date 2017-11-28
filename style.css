@@ -556,6 +556,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	font-family: 'FontAwesome';
 	position: absolute;
 	margin-top: 9px;
+	background-color: transparent;
 }
 
 .navigator .slider-control.left:before {

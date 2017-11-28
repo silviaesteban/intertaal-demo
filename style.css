@@ -6,6 +6,10 @@ body {
     font-weight: 400;
 }
 
+strong{
+	color: #000;
+
+}
 
 .body_clase .content-wrapper {
 	padding-top: 130px;
@@ -118,6 +122,7 @@ a:hover, a:active, a:focus {
 #actividad .workspace.ordenar .js-rank-item ul li:before {
     background-color: #AC218F;
     border-radius: 0%;
+    border:0px;
 }
 
 #actividad .class_slide {
@@ -493,7 +498,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 /* Navigators */
 .navigator {
-bottom: 0px;
+	bottom: 0px;
     left: 3%;
     position: absolute;
     width: 95%;
@@ -611,15 +616,21 @@ bottom: 0px;
 	background-color: transparent;
 }
 
-h2.bck-title1 {
+.bck-title1 {
+	font-family: 'Lato', sans-serif !important;
     color: #0073bc;
     font-size: 3.4rem;
     font-weight: bolder;
     position: relative;
     border-bottom: solid;
+    border-left:0px;
+    margin-left: 0px;
+    padding: 0px;
+
 }
 
 .bck-title2 {
+	font-family: 'Lato', sans-serif !important;
     color: #9665AB;
     font-size: 2.1rem;
     font-weight: bold;
@@ -627,7 +638,8 @@ h2.bck-title1 {
 	position: relative;
 }
 
-h3.bck-title3 {
+.bck-title3 {
+	font-family: 'Lato', sans-serif !important;
     color: #0073bc;
     font-size: 2.4rem;
     font-weight: 600;
@@ -664,8 +676,7 @@ h3.bck-title3 {
     margin-right: 3px;
     margin-bottom: 1px;
     border-radius:0px;
-    border:0px;
-
+    border:transparent!important;
 }
 
 #actividad .content .texto_curso  ul.bck-ul-2 li,
@@ -1416,7 +1427,7 @@ table td.bck-td {
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
     width: 100%;
     background-color: #0073bc;
-   color.#fff;
+   color:#fff;
     margin: 0;
     padding-bottom: 6px;
     padding-top: 6px;

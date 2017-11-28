@@ -29,13 +29,13 @@ body {
 	display: none;
 }
 
-.content_type_clase_lnplat #actividad {
+.content_type_clase_intertaal_demo #actividad {
 	margin-bottom: 0px;
 	-webkit-transform: none;
 	-webkit-transform-style: flat;
 }
 
-.content_type_clase_lnplat .slide-wrapper {
+.content_type_clase_intertaal_demo .slide-wrapper {
 	text-align: justify;
 }
 
@@ -67,16 +67,16 @@ a:hover, a:active, a:focus {
 }
 		/*HEADER*/
 
-		.content_type_clase_lnplat #actividad .content .header .title img,
-		.content_type_clase_lnplat #actividad .content .header .chapter {
+		.content_type_clase_intertaal_demo #actividad .content .header .title img,
+		.content_type_clase_intertaal_demo #actividad .content .header .chapter {
 			display: none;
 		}
 
-		.content_type_clase_lnplat #actividad .content .header {
+		.content_type_clase_intertaal_demo #actividad .content .header {
 			border: none;
 		}
 
-		.content_type_clase_lnplat #actividad .content .header .title h3 {
+		.content_type_clase_intertaal_demo #actividad .content .header .title h3 {
 			display: none;
 		}
 
@@ -85,7 +85,7 @@ a:hover, a:active, a:focus {
 			padding-bottom: 0px;
 		}
 
-		.lnplat-navbar h3 {
+		.intertaal_demo-navbar h3 {
 			width: 75%;
 			margin: auto;
 			margin-bottom: 15px;
@@ -95,17 +95,17 @@ a:hover, a:active, a:focus {
 
 		/**/
 
-.content_type_clase_lnplat #actividad .texto_curso {
+.content_type_clase_intertaal_demo #actividad .texto_curso {
 	font-size: 1.8rem;
 }
 
-.content_type_clase_lnplat #actividad .texto_curso li,
-.content_type_clase_lnplat #actividad .workspace ul li li {
+.content_type_clase_intertaal_demo #actividad .texto_curso li,
+.content_type_clase_intertaal_demo #actividad .workspace ul li li {
 	margin-bottom: 10px;
 }
 
-.content_type_clase_lnplat #actividad .texto_curso li:last-of-type,
-.content_type_clase_lnplat #actividad .workspace ul li li:last-of-type {
+.content_type_clase_intertaal_demo #actividad .texto_curso li:last-of-type,
+.content_type_clase_intertaal_demo #actividad .workspace ul li li:last-of-type {
 	margin-bottom: 0px;
 }
 
@@ -144,7 +144,7 @@ body.is_app #actividad .class_slide {
 	min-height: 0px;
 }
 
-.content_type_clase_lnplat .slide_main input {
+.content_type_clase_intertaal_demo .slide_main input {
 	color: #555;
 	background-color: #fff;
 	background-image: none;
@@ -156,33 +156,33 @@ body.is_app #actividad .class_slide {
 	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.content_type_clase_lnplat .slide_main input:focus,
-.content_type_clase_lnplat .slide_main .form-control:focus {
+.content_type_clase_intertaal_demo .slide_main input:focus,
+.content_type_clase_intertaal_demo .slide_main .form-control:focus {
 	border-color: #9664AB;
 	outline-width: 0px;
 	outline-style: none;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 }
 
-.content_type_clase_lnplat .slide_main input[disabled],
-.content_type_clase_lnplat .slide_main input[readonly],
-fieldset[disabled] .content_type_clase_lnplat .slide_main input {
+.content_type_clase_intertaal_demo .slide_main input[disabled],
+.content_type_clase_intertaal_demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_intertaal_demo .slide_main input {
 	cursor: not-allowed;
 	background-color: #eee;
 	opacity: 1;
 }
 
-.content_type_clase_lnplat .slide_main input.respuesta_ok {
+.content_type_clase_intertaal_demo .slide_main input.respuesta_ok {
 	border-color: #57e900;
 	background: #D1F3BD;
 }
 
-.content_type_clase_lnplat .slide_main input.respuesta_ko {
+.content_type_clase_intertaal_demo .slide_main input.respuesta_ko {
 	border-color: #FF3626;
 	background: #FFA49D;
 }
 
-.content_type_clase_lnplat .slide_main input.solucion {
+.content_type_clase_intertaal_demo .slide_main input.solucion {
 	border-color: #00BDFF;
 	background: #B6ECFF;
 }
@@ -264,7 +264,7 @@ fieldset[disabled] .content_type_clase_lnplat .slide_main input {
     background: linear-gradient(to left, #7aac39, transparent);
 }
 
-.content_type_clase_lnplat .lnplat-navbar {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar {
 	position: fixed;
     top: 44px;
     width: 100%;
@@ -275,17 +275,17 @@ fieldset[disabled] .content_type_clase_lnplat .slide_main input {
    border-bottom: 10px solid #ffd800;
 }
 
-body.is_app .lnplat-navbar {
+body.is_app .intertaal_demo-navbar {
 	top: 0;
 	transition: top 0.5s linear;
 }
 
-body.is_app .lnplat-navbar.ocultar {
+body.is_app .intertaal_demo-navbar.ocultar {
 	top: -136px;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown button,
-.content_type_clase_lnplat .lnplat-navbar li {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown button,
+.content_type_clase_intertaal_demo .intertaal_demo-navbar li {
 	border-radius: 5px;
 	border: none;
 	background-color: transparent;
@@ -298,11 +298,11 @@ body.is_app .lnplat-navbar.ocultar {
 	cursor: pointer;
 }
 
-.content_type_clase_lnplat .lnplat-navbar li {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar li {
 	font-size: 1.5rem;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown button {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown button {
 	font-weight: 600;
 	width: auto;
 	padding: 0;
@@ -312,22 +312,22 @@ body.is_app .lnplat-navbar.ocultar {
 	border: none;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown button:focus {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown button:focus {
 	outline: none;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown .caret {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown .caret {
 	border-color: black transparent transparent transparent;
 	margin-left: 10px;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .navbar-content {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .navbar-content {
 	max-width: 1160px;
 	margin: 0 20px;
 	border-bottom: 4px solid transparent;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdownTemas {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdownTemas {
 	position: relative;
 	float: right;
     right: 40px;
@@ -335,26 +335,26 @@ body.is_app .lnplat-navbar.ocultar {
 
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdownTemas:focus,
-.content_type_clase_lnplat .lnplat-navbar .dropdownTemas button:focus {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdownTemas:focus,
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdownTemas button:focus {
 	outline: none;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdownTemas button {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdownTemas button {
 	background-color: transparent;
 	border: none;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdownTemas .caret{
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdownTemas .caret{
 	border-color: #fff transparent transparent transparent;
 	margin-left: 10px;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdownTemas .dropdown-menu {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdownTemas .dropdown-menu {
 	left: 50px;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .navbar-content h2 {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .navbar-content h2 {
 	color: white;
 	font-weight: 600;
 	font-size: 3rem;
@@ -368,11 +368,11 @@ body.is_app .lnplat-navbar.ocultar {
     display: table-cell;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .navbar-content h2 #nombre-tema-wrapper {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .navbar-content h2 #nombre-tema-wrapper {
 	line-height: 2.5rem;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .navbar-content h2 #courseIndex {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .navbar-content h2 #courseIndex {
     background-color: transparent;
     font-size: 10rem;
     color: white;
@@ -390,7 +390,7 @@ body.is_app .lnplat-navbar.ocultar {
     font-weight: 200;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .navbar-content h2 a {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .navbar-content h2 a {
 	font-size: 1.6rem;
 	font-weight: normal;
 	padding-left: 10px;
@@ -400,7 +400,7 @@ body.is_app .lnplat-navbar.ocultar {
     color: white;
 }
 
-.content_type_clase_lnplat .slider-indicators {
+.content_type_clase_intertaal_demo .slider-indicators {
 	padding: 10px 0px;
 	display: inline-block;
 	text-align: left;
@@ -411,13 +411,13 @@ body.is_app .lnplat-navbar.ocultar {
 	z-index: 0;
 }
 
-.content_type_clase_lnplat .slider-indicators li:first-child span,
-.content_type_clase_lnplat .dropdown li:first-child span.num {
+.content_type_clase_intertaal_demo .slider-indicators li:first-child span,
+.content_type_clase_intertaal_demo .dropdown li:first-child span.num {
 	font-family: "Palatino Linotype", Times;
 }
 
-.content_type_clase_lnplat .first-is-section .slider-indicators li:first-child span,
-.content_type_clase_lnplat .first-is-section .dropdown li:first-child span.num {
+.content_type_clase_intertaal_demo .first-is-section .slider-indicators li:first-child span,
+.content_type_clase_intertaal_demo .first-is-section .dropdown li:first-child span.num {
 	font-family: 'FontAwesome' !important;
 }
 
@@ -427,19 +427,19 @@ body.is_app .lnplat-navbar.ocultar {
     float: left;
 }
 
-.content_type_clase_lnplat .slider-indicators li {
+.content_type_clase_intertaal_demo .slider-indicators li {
 	width: 35px;
 	height: 35px;
 	margin: 0px 5px;
 	text-align: center;
 }
 
-.content_type_clase_lnplat .slider-indicators li.active,
-.content_type_clase_lnplat .lnplat-navbar li:hover {
+.content_type_clase_intertaal_demo .slider-indicators li.active,
+.content_type_clase_intertaal_demo .intertaal_demo-navbar li:hover {
 	background-color: #b0d1fc;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown {
 	display: block;
     position: absolute;
     float: left;
@@ -479,12 +479,12 @@ body.is_app .lnplat-navbar.ocultar {
 	white-space: nowrap;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown li {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown li {
 	display: list-item;
 	width: auto;
 }
 
-.content_type_clase_lnplat .lnplat-navbar .dropdown li a {
+.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown li a {
 	color: #777;
 	font-size: 1.5rem;
 	overflow: auto;
@@ -797,7 +797,7 @@ body.is_app .lnplat-navbar.ocultar {
     background: none;
 }
 
-.content_type_clase_lnplat:not(.android) .bck-box.simple:before {
+.content_type_clase_intertaal_demo:not(.android) .bck-box.simple:before {
     transform: none;
     -ms-transform: skewY(0deg);
     -webkit-transform: skewY(0deg);
@@ -1323,47 +1323,47 @@ table td.bck-td {
 	border-top-right-radius: 20px;
 }
 
-.lnplat-dropdown .bck-dropdown-icon, .lnplat-dropdown-2 .bck-dropdown-icon {
+.intertaal_demo-dropdown .bck-dropdown-icon, .intertaal_demo-dropdown-2 .bck-dropdown-icon {
 	color: white;
 }
 
-.lnplat-dropdown .bck-dropdown-icon > .fa, .lnplat-dropdown-2 .bck-dropdown-icon > .fa {
+.intertaal_demo-dropdown .bck-dropdown-icon > .fa, .intertaal_demo-dropdown-2 .bck-dropdown-icon > .fa {
 	border: 3px solid white;
 }
 
-.lnplat-dropdown .bck-dropdown-titulo, .lnplat-dropdown-2 .bck-dropdown-titulo{
+.intertaal_demo-dropdown .bck-dropdown-titulo, .intertaal_demo-dropdown-2 .bck-dropdown-titulo{
 	color: white;
 }
 
 /*Desplegable 1*/
-.bck-dropdown.lnplat-dropdown {
+.bck-dropdown.intertaal_demo-dropdown {
 	background-color: #FBA81C;
 }
 
-.lnplat-dropdown .bck-dropdown-icon {
+.intertaal_demo-dropdown .bck-dropdown-icon {
 	background-color: #FBA81C;
 }
 
-.lnplat-dropdown .bck-dropdown-content {
+.intertaal_demo-dropdown .bck-dropdown-content {
 	background-color: #F2E7D1;
 }
 
 /**/
 
 /*Desplegable 2*/
-.bck-dropdown.lnplat-dropdown-2 {
+.bck-dropdown.intertaal_demo-dropdown-2 {
 	background-color: #9665AB;
 }
 
-.lnplat-dropdown-2 .bck-dropdown-icon {
+.intertaal_demo-dropdown-2 .bck-dropdown-icon {
 	background-color: #9665AB;
 }
 
-.lnplat-dropdown-2 .bck-dropdown-content {
+.intertaal_demo-dropdown-2 .bck-dropdown-content {
 	background-color: #e5b7e4;
 }
 
-.edit .lnplat-dropdown-2 .bck-dropdown-content {
+.edit .intertaal_demo-dropdown-2 .bck-dropdown-content {
 	color: white;
 }
 /**/

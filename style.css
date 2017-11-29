@@ -1448,7 +1448,7 @@ table td.bck-td {
     z-index: 100;
 }
 
-.navbar-bottom .slider-indicators {
+.slider-indicators {
     position: static;
     z-index: 15;
     list-style: none;

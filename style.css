@@ -1459,3 +1459,12 @@ position: static;
     bottom: -70px;
     padding-left: 0;
 }
+
+.edit .slider-indicators li {
+    width: 40px;
+    height: 20px;
+    text-indent: 0;
+    text-align: center;
+    color: #4b4b4b;
+    vertical-align: middle;
+}

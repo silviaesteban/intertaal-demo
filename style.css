@@ -752,7 +752,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter, upper-alpha)' .';
+	content: counter(bck-li-counter)' ';
     position: absolute;
     left: -47px;
     width: 40px;
@@ -760,7 +760,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
     text-align: right;
     color: #000;
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 16px;
 }
 /**/
 

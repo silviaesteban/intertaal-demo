@@ -1477,3 +1477,8 @@ table td.bck-td {
     background-image: url(logo-blink.png);
     height: 12px;
     }
+
+    .body_clase .slider-indicators{
+	background-color: transparent!important;
+
+    }

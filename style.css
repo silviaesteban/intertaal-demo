@@ -1478,3 +1478,8 @@ table td.bck-td {
     background-image: url(logo-blink.png);
     height: 12px;
     }
+
+ .edit .slider-indicators .concat.active, .slider-indicators .active {
+    background-color: #85c939;
+    color:#ffca04;
+	}

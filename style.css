@@ -747,7 +747,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	    list-style-type: none;
 	    counter-increment: bck-li-counter 1;
 	    position: relative;
-	    
+
 }
 
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
@@ -1434,4 +1434,25 @@ table td.bck-td {
     margin: 0;
     padding-bottom: 6px;
     padding-top: 6px;
+}
+
+
+/*navbar bottom*/
+.navbar-bottom {
+    min-height: 44px;
+    background-color: #4b4b4b;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+.slider-indicators {
+    position: static;
+    z-index: 15;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    width: auto;
 }

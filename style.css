@@ -747,6 +747,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	    list-style-type: none;
 	    counter-increment: bck-li-counter 1;
 	    position: relative;
+	    
 }
 
 #actividad .content .texto_curso ol.bck-ol-2 li:before,

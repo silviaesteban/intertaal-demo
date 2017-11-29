@@ -1479,7 +1479,7 @@ table td.bck-td {
     height: 12px;
     }
 
- .edit .slider-indicators .concat.active, .slider-indicators .active {
+ .edit .slider-indicators .concat.active, .slider-indicators .active, .body_clase .slider-indicators li.active, .body_clase .activity-navbar li:hover{
     background-color: #85c939;
     color:#ffca04;
 	}

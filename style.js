@@ -11,77 +11,14 @@
 		ckEditorStyles: {
 			name: 'intertaal_demo',
 			styles: [
-				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Title 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Title 2', element: 'h3', attributes: { 'class': 'bck-title3'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
-				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
-				{ name: 'Versalitas', element: 'span', attributes: { 'class': 'bck-versalitas'} },
+				{ name: 'List bubble blue', element: 'ul', attributes: { 'class': 'bck-ul'} },
+				{ name: 'List box orange', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'List red', element: 'ol', attributes: { 'class': 'bck-ol' } },
+				{ name: 'List black', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 
-				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
-				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
-				{ name: 'Lista Desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
-				{ name: 'Lista Ordenada', element: 'ol', attributes: { 'class': 'bck-ol' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
-
-				{ name: 'Caja simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple' } },
-				{ name: 'Caja simple 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-2' } },
-				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
-
-				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
-				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
-
-				{ name: 'Presentación', element: 'h4', attributes: { 'class': 'presentation'} },
-				{ name: 'Presentación 2', element: 'h4', attributes: { 'class': 'presentation-2'} },
-				{ name: 'Título Presentación Video', element: 'h4', attributes: { 'class': 'titulo-video'} },
-				{ name: 'Título Presentación Video 2', element: 'h4', attributes: { 'class': 'titulo-video-2'} },
-				{ name: 'Actividad Scorm', element: 'h4', attributes: { 'class': 'actividad-scorm'} },
-				{ name: 'Actividad Blink', element: 'h4', attributes: { 'class': 'actividad-blink'} },
-				{ name: 'Título Slider Imágen', element: 'h4', attributes: { 'class': 'slider-imagen'} },
-				{ name: 'Título Trabajar Imágen', element: 'h4', attributes: { 'class': 'trabajar-imagen'} },
-				{ name: 'Título Escuchar', element: 'h4', attributes: { 'class': 'titulo-escuchar'} },
-
-				{ name: 'Título2 Hablar', element: 'h4', attributes: { 'class': 'titulo-2 hablar'} },
-				{ name: 'Título2 Escuchar', element: 'h4', attributes: { 'class': 'titulo-2 escuchar'} },
-				{ name: 'Título2 Leer', element: 'h4', attributes: { 'class': 'titulo-2 leer'} },
-				{ name: 'Título2 Escribir', element: 'h4', attributes: { 'class': 'titulo-2 escribir'} },
-				{ name: 'Título2 Aprender', element: 'h4', attributes: { 'class': 'titulo-2 aprender'} },
-
-				{ name: 'Presentación Imagen', type: 'widget', widget: 'blink_box', attributes: { 'class': 'presentation-img' } },
-				{ name: 'Presentación Video', type: 'widget', widget: 'blink_box', attributes: { 'class': 'presentation-video' } },
-				{ name: 'Presentación Video 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'presentation-video-2' } },
-				{ name: 'Slider Imagen', type: 'widget', widget: 'blink_box', attributes: { 'class': 'slider-img' } },
-				{ name: 'Trabajar Imagen', type: 'widget', widget: 'blink_box', attributes: { 'class': 'trabajar-img' } },
-				{ name: 'Escuchar', type: 'widget', widget: 'blink_box', attributes: { 'class': 'escuchar-box' } },
-				{ name: 'Actividad Scorm ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'actividad-scorm-box' } },
-
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'intertaal_demo-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'intertaal_demo-dropdown-2' } },
-
-				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
-				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
-				{ name: 'Imagen izquierda', element: 'img', attributes: { 'class': 'bck-img left' } },
-
-				{ name: 'Icono Clase', element: 'span', attributes: { 'class': 'icon icon-clase' } },
-				{ name: 'Icono Clase Rosa', element: 'span', attributes: { 'class': 'icon icon-clase-rosa' } },
-				{ name: 'Icono Conversación', element: 'span', attributes: { 'class': 'icon icon-conversation' } },
-				{ name: 'Icono Conversación Verde', element: 'span', attributes: { 'class': 'icon icon-conversation-verde' } },
-				{ name: 'Icono Conversación Azul', element: 'span', attributes: { 'class': 'icon icon-conversation-azul' } },
-				{ name: 'Icono Conversación Rosa', element: 'span', attributes: { 'class': 'icon icon-conversation-rosa' } },
-				{ name: 'Icono Herramienta', element: 'span', attributes: { 'class': 'icon icon-tool' } },
-				{ name: 'Icono Herramienta Verde', element: 'span', attributes: { 'class': 'icon icon-tool-verde' } },
-				{ name: 'Icono Herramienta Azul', element: 'span', attributes: { 'class': 'icon icon-tool-azul' } },
-				{ name: 'Icono Herramienta Rosa', element: 'span', attributes: { 'class': 'icon icon-tool-rosa' } },
-				{ name: 'Icono Llave', element: 'span', attributes: { 'class': 'icon icon-llave' } },
-				{ name: 'Icono Ratón', element: 'span', attributes: { 'class': 'icon icon-raton' } },
-				{ name: 'Icono Museo', element: 'span', attributes: { 'class': 'icon icon-museo' } },
-				{ name: 'Icono Talento', element: 'span', attributes: { 'class': 'icon icon-talento' } },
-				{ name: 'Icono Talento 2', element: 'span', attributes: { 'class': 'icon icon-talento-2' } },
-				{ name: 'Icono Talento Verde', element: 'span', attributes: { 'class': 'icon icon-talento-verde' } },
-
-				{ name: 'icono ablink', element: 'span', attributes: { 'class': 'icono ablink' } },
-				{ name: 'icono ascorm', element: 'span', attributes: { 'class': 'icono ascorm' } }
 			]
 		},
 		slidesTitle: {},

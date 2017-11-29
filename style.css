@@ -753,7 +753,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	content: counter(bck-li-counter, upper-alpha)' .';
     position: absolute;
-    left: -47px;
+    left: -1px;
     width: 40px;
     font-weight: 500;
     text-align: right;

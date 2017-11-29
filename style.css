@@ -1459,7 +1459,6 @@ table td.bck-td {
     width: auto;
     padding-bottom: 12px;
     background-color: transparent!important;
-    left: 40%;
 }
 
 .edit .slider-indicators li {
@@ -1470,6 +1469,7 @@ table td.bck-td {
     color: #4b4b4b;
     vertical-align: middle;
     margin: -15px 6px 10px;
+    left: 10%;
 }
 
 .body_clase .logo-publisher {

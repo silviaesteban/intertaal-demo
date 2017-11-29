@@ -1447,8 +1447,9 @@ table td.bck-td {
     left: 0;
     z-index: 100;
 }
- .body_clase .slider-indicators {
-	position: static;
+
+.navbar-bottom .slider-indicators {
+    position: static;
     z-index: 15;
     list-style: none;
     text-align: center;
@@ -1456,8 +1457,6 @@ table td.bck-td {
     padding-top: 10px;
     width: auto;
     padding-bottom: 12px;
-    bottom: -70px;
-    padding-left: 0;
 }
 
 .edit .slider-indicators li {

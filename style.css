@@ -1449,7 +1449,7 @@ table td.bck-td {
     height: 50px;
 }
 
-.slider-indicators {
+.body_clase .slider-indicators{
     position: static;
     z-index: 15;
     list-style: none;
@@ -1476,9 +1476,4 @@ table td.bck-td {
     content: " ";
     background-image: url(logo-blink.png);
     height: 12px;
-    }
-
-    .body_clase .slider-indicators{
-	background-color: transparent!important;
-
     }

@@ -1466,10 +1466,11 @@ table td.bck-td {
     height: 20px;
     text-indent: 0;
     text-align: center;
-    color: #4b4b4b;
+    color: black;
     vertical-align: middle;
     margin: -15px 6px 10px;
     left: 10%;
+    background-color: #e5e5e5;
 }
 
 .body_clase .logo-publisher {

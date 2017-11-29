@@ -1498,3 +1498,6 @@ table td.bck-td {
     margin-left: -33px;
     margin-top: 8px;
 	}
+.edit .slider-indicators .concat{
+	overflow: visible;
+}

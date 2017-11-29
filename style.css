@@ -1438,61 +1438,66 @@ table td.bck-td {
 
 
 /*navbar bottom*/
-.slider-indicators {
-bottom: -70px;
-padding-left: 0px;
+.navbar-bottom {
+   min-height: 44px;
+   background-color: #4b4b4b;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+   z-index: 100;
+   height: 50px;
 }
 
-.slider-indicators li {
-width: 9px;
-height: 9px;
-margin: 7px;
-border: 0px solid transparent;
-background-color: #666666;
-display: inline-block;
--webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-       border-radius: 10px;
+.body_clase .slider-indicators{
+   position: static;
+   z-index: 15;
+   list-style: none;
+   text-align: center;
+   margin: 0px;
+   padding-top: 10px;
+   width: auto;
+   padding-bottom: 12px;
+   background-color: transparent!important;
 }
 
 .edit .slider-indicators li {
-width: 40px;
-height: 20px;
-text-indent: 0px;
-text-align: center;
-color: #4b4b4b;
-vertical-align: middle;
+   width: 40px;
+   height: 20px;
+   text-indent: 0;
+   text-align: center;
+   color: black;
+   vertical-align: middle;
+   margin: 0px 6px 10px;
+   left: 10%;
+   background-color: #e5e5e5;
 }
 
-.edit .slider-indicators .concat {
-color: #999;
-white-space: nowrap;
-overflow: hidden;
--webkit-background-clip: content-box;
-  -moz-background-clip: content-box;
-    -o-background-clip: content-box;
-       background-clip: content-box;
-background-color: #999;
+.body_clase .logo-publisher {
+   content: " ";
+   background-image: url(logo-blink.png);
+   height: 12px;
+   }
+
+.edit .slider-indicators .concat.active, .slider-indicators .active{
+   background-color: #85c939;
+   color:#ffca04;
 }
 
-.edit .slider-indicators .concat:before {
-content: ' ';
-background-color: #999;
-width: 18px;
-height: 3px;
-position: absolute;
-margin-left: -33px;
-margin-top: 8px;
-}
-
-.slider-indicators .active {
-width: 9px;
-height: 9px;
-margin: 7px;
-}
-
-.edit .slider-indicators .concat.active,
-.slider-indicators .active {
+.body_clase .slider-indicators li.active, .body_clase .activity-navbar li:hover{
 background-color: #85c939;
-color: #85c939;
+   color:#ffca04;
+}
+
+.edit .slider-indicators .concat:before{
+content: ' ';
+   background-color: #999;
+   width: 18px;
+   height: 3px;
+   position: absolute;
+   margin-left: -12px!important;
+   margin-top: 8px;
+}
+.edit .slider-indicators .concat{
+overflow: visible;
 }

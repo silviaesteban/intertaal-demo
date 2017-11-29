@@ -1458,7 +1458,7 @@ table td.bck-td {
     padding-top: 10px;
     width: auto;
     padding-bottom: 12px;
-    background-color: transparent;
+    background-color: transparent!important;
     left: 40%;
 }
 

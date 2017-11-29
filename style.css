@@ -726,13 +726,14 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	#actividad .content .workspace ul li .bck-ol li:before {
 	    content: counter(bck-li-counter)' ';
 	    position: absolute;
-	    left: -47px;
+	    left: -1px;
 	    width: 40px;
 	    font-weight: 700;
 	    text-align: right;
 	    color: #D9381F;
 	    font-family: sans-serif;
 	    font-size: 22px;
+	    margin-left: 0px;
 	}
 
 #actividad .content .texto_curso .bck-ol-2,
@@ -753,7 +754,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	content: counter(bck-li-counter, upper-alpha)' .';
     position: absolute;
-    left: -1px;
+    left: -47px;
     width: 40px;
     font-weight: 500;
     text-align: right;

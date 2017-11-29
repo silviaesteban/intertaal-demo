@@ -1488,3 +1488,13 @@ table td.bck-td {
 	background-color: #85c939;
     color:#ffca04;
 }
+
+.edit .slider-indicators .concat:before{
+	content: ' ';
+    background-color: #999;
+    width: 18px;
+    height: 3px;
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 8px;
+	}

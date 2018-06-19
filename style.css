@@ -6,6 +6,11 @@ body {
     font-weight: 400;
 }
 
+strong {
+    color: inherit;
+    font-weight: bold;
+}
+
 
 .body_clase .content-wrapper {
 	padding-top: 130px;

@@ -659,26 +659,30 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 /*listas*/
 
-#actividad .content ul {
-    content: "";
+#actividad .content ul.bck-ul li {
+	list-style: none;
+}
+
+#actividad .content .cke_contents ul li:before,
+#actividad .content .texto_curso ul li:before,
+#actividad .content .workspace ul li ul li:before{
+   content: "";
     position: absolute;
     height: 9px;
     width: 9px;
-    background-color: #333;
+    background-color: #444;
     margin-top: 9px;
     margin-left: -15px;
     margin-right: 3px;
     margin-bottom: 1px;
     border-radius:0px;
     border:transparent!important;
+
 }
 
-#actividad .content ul.bck-ul li {
-	list-style: none;
-}
 
-#actividad .content .texto_curso ul li:before,
-#actividad .content .workspace ul li ul li:before,
+
+
 #actividad .content .texto_curso .bck-ul li:before,
 #actividad .content .workspace ul li .bck-ul li:before {
     content: "";
@@ -699,6 +703,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	list-style: none;
 }
 
+#actividad .content .cke_contents .bck-ul-2 li:before,
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before {
     content: " ";
@@ -736,6 +741,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	    font-weight: 600;
 	}
 
+         #actividad .content .cke_contents .bck-ol li:before,
 	#actividad .content .texto_curso .bck-ol li:before,
 	#actividad .content .workspace ul li .bck-ol li:before {
 	    content: counter(bck-li-counter)' ';
@@ -764,6 +770,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 }
 
+#actividad .content .cke_contents .bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	    content: counter(bck-li-counter)' ';

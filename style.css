@@ -1492,7 +1492,7 @@ table td.bck-td {
 }
 
 .body_clase .logo-publisher {
-   ontent: " ";
+    content: " ";
     display: inline-block;
     background-image: url(images/Logo_Contact_nieuw.png);
     background-size: contain;
@@ -1500,8 +1500,23 @@ table td.bck-td {
     padding: 60px;
     position: absolute;
     top: 120%;
-    left: 7%;
+    left: 10%;
    }
+
+.body_clase:not(.edit) .logo-publisher {
+	ontent: " ";
+    display: inline-block;
+    background-image: url(images/Logo_Contact_nieuw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px;
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}
+
+
+
 
 .edit .slider-indicators .concat.active, .slider-indicators .active{
    background-color: #85c939;

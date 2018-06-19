@@ -1518,7 +1518,7 @@ table td.bck-td {
    }
 
 .body_clase:not(.edit) .logo-publisher {
-	ontent: " ";
+    content: " ";
     display: inline-block;
     background-image: url(images/Logo_Contact_nieuw.png);
     background-size: contain;
@@ -1553,4 +1553,16 @@ content: ' ';
 }
 .edit .slider-indicators .concat{
 overflow: visible;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+.body_clase:not(.edit) .logo-publisher {
+    padding: 25px;
+}
+}
+
+@media (max-width: 900px) {
+.body_clase:not(.edit) .logo-publisher {
+    display: none;
+}
 }

@@ -1565,4 +1565,12 @@ overflow: visible;
 .body_clase:not(.edit) .logo-publisher {
     display: none;
 }
+	
+a#boton_notes {
+    display: none;
+}
+a#boton_borrador {
+    display: none;
+}
+
 }

@@ -1500,10 +1500,10 @@ table td.bck-td {
     background-image: url(images/Logo_Contact_nieuw.png);
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 40px;
+    padding: 60px;
     position: absolute;
     top: 120%;
-    left: 10%;
+    left: 7%;
    }
 
 .edit .slider-indicators .concat.active, .slider-indicators .active{

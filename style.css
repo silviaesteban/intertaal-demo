@@ -328,7 +328,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 .content_type_clase_intertaal_demo .intertaal_demo-navbar .navbar-content {
 	max-width: 1160px;
-	margin: 0 20px;
+	margin: auto;
 	border-bottom: 4px solid transparent;
 }
 

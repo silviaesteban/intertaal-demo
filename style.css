@@ -683,6 +683,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 
 
+#actividad .content .cke_contents .bck-ul li:before,
 #actividad .content .texto_curso .bck-ul li:before,
 #actividad .content .workspace ul li .bck-ul li:before {
     content: "";

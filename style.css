@@ -290,7 +290,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	top: -136px;
 }
 
-.content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown button,
+
 .content_type_clase_intertaal_demo .intertaal_demo-navbar li {
 	border-radius: 5px;
 	border: none;
@@ -316,6 +316,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 	text-align: left;
 	line-height:
 	border: none;
+	color:#fff;
 }
 
 .content_type_clase_intertaal_demo .intertaal_demo-navbar .dropdown button:focus {

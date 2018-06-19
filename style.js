@@ -19,8 +19,8 @@
 				{ name: 'Box 2', element: 'h3', attributes: { 'class': 'bck-box bck-box-2'} },
 				{ name: 'Box 3', element: 'h3', attributes: { 'class': 'bck-box bck-box-3'} },
 
-				{ name: 'List bubble blue', element: 'ul', attributes: { 'class': 'bck-ul'} },
-				{ name: 'List box orange', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'List bubble blue', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'List box orange', element: 'ul', attributes: { 'class': 'bck-ul'} },
 				{ name: 'List red', element: 'ol', attributes: { 'class': 'bck-ol' } },
 				{ name: 'List black', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 

@@ -659,6 +659,20 @@ body.is_app .intertaal_demo-navbar.ocultar {
 
 /*listas*/
 
+#actividad .content ul {
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    background-color: #333;
+    margin-top: 9px;
+    margin-left: -15px;
+    margin-right: 3px;
+    margin-bottom: 1px;
+    border-radius:0px;
+    border:transparent!important;
+}
+
 #actividad .content ul.bck-ul li {
 	list-style: none;
 }

@@ -15,9 +15,11 @@
 				{ name: 'Title 2', element: 'h3', attributes: { 'class': 'bck-title3'} },
 				{ name: 'Title 3', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				
-				{ name: 'Box 1', element: 'h3', attributes: { 'class': 'bck-box simple'} },
-				{ name: 'Box 2', element: 'h3', attributes: { 'class': 'bck-box bck-box-2'} },
-				{ name: 'Box 3', element: 'h3', attributes: { 'class': 'bck-box bck-box-3'} },
+	
+			        { name: 'Box 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box simple' } },
+				{ name: 'Box 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Box 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+
 
 				{ name: 'List bubble blue', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
 				{ name: 'List box orange', element: 'ul', attributes: { 'class': 'bck-ul'} },

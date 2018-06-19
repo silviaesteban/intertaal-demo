@@ -866,9 +866,9 @@ body.is_app .intertaal_demo-navbar.ocultar {
 }
 
 .bck-box.simple-2 {
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 10px;
-	text-align: left;
+    border-left: 5px solid #D9391F;
+    background-color: #d9391f1a;
+    text-align: left;
 }
 
 .bck-box.simple-2 > .bck-content {
@@ -876,8 +876,7 @@ body.is_app .intertaal_demo-navbar.ocultar {
 }
 
 .bck-box.simple-3 {
-	border: 3px solid #9665AB;
-	border-radius: 20px;
+	border: 2px solid #0073bc;
 }
 
 /**/

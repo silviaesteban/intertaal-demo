@@ -17,8 +17,8 @@
 				
 	
 			        { name: 'Box 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box simple' } },
-				{ name: 'Box 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Box 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Box 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box simple-2' } },
+				{ name: 'Box 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box simple-3' } },
 
 
 				{ name: 'List bubble blue', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
